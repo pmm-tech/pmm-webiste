@@ -1,0 +1,72 @@
+{
+  "_Footer-CCn5Qzcz.js": {
+    "file": "assets/Footer-CCn5Qzcz.js",
+    "name": "Footer",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_client-Cl5MU6w_.js": {
+    "file": "assets/client-Cl5MU6w_.js",
+    "name": "client",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "file": "assets/app-BuPiMwjJ.js",
+    "name": "app",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "_client-Cl5MU6w_.js",
+      "src/pages/Index.tsx",
+      "src/pages/StockOpPrivacyPolicy.tsx",
+      "src/pages/StockOpTermsOfService.tsx",
+      "src/pages/NotFound.tsx"
+    ],
+    "css": [
+      "assets/app-BWQv5IGD.css"
+    ]
+  },
+  "src/pages/Index.tsx": {
+    "file": "assets/Index-BoBVTKjl.js",
+    "name": "Index",
+    "src": "src/pages/Index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_Footer-CCn5Qzcz.js"
+    ]
+  },
+  "src/pages/NotFound.tsx": {
+    "file": "assets/NotFound-DK8PGMvl.js",
+    "name": "NotFound",
+    "src": "src/pages/NotFound.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/StockOpPrivacyPolicy.tsx": {
+    "file": "assets/StockOpPrivacyPolicy-CCBgu63B.js",
+    "name": "StockOpPrivacyPolicy",
+    "src": "src/pages/StockOpPrivacyPolicy.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_Footer-CCn5Qzcz.js"
+    ]
+  },
+  "src/pages/StockOpTermsOfService.tsx": {
+    "file": "assets/StockOpTermsOfService-DwnCBjor.js",
+    "name": "StockOpTermsOfService",
+    "src": "src/pages/StockOpTermsOfService.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_Footer-CCn5Qzcz.js"
+    ]
+  }
+}
